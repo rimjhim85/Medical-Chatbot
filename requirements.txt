@@ -1,11 +1,12 @@
 flask
 python-dotenv
 pypdf
-langchain
+langchain==0.1.14
 langchain-pinecone
 langchain-community
 langchain-openai
 langchain-experimental
-langchain-cohere
+langchain-cohere==0.1.6
 pinecone
 huggingface-hub
+cohere==4.33
