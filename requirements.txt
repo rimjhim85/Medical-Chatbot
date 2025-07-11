@@ -1,13 +1,11 @@
 sentence-transformers==2.2.2
-langchain
 flask
 pypdf
 python-dotenv
-pinecone[grpc]
+pinecone-client
 langchain-pinecone
-langchain_community
-langchain_openai
-langchain_experimental
+langchain-community
 langchain-cohere
-cohere<5.0.0  # Add or change this line to ensure an older, compatible version
--e .
+langchain-core # Often a dependency for other langchain packages
+gunicorn
+cohere<5.0.0
