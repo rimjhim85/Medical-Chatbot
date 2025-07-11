@@ -9,4 +9,5 @@ langchain_community
 langchain_openai
 langchain_experimental
 langchain-cohere
+cohere<5.0.0  # Add or change this line to ensure an older, compatible version
 -e .
