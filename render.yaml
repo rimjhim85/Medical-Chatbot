@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: medical-chatbot
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    envVars:
+      - key: NBP7WXJCUucInhPHSJMfiPSlz2TKC3mTCr1VxxmP
+        sync: false
+      - key: pcsk_Km16b_311aZo4c6ZT9JtHv4ruihKWtSmQgpCEgbURyCVm27Fhxjqywo2R54yQnptLyiHD
+        sync: false
+      - key: PINECONE_ENVIRONMENT
+        value: us-east-1

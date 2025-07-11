@@ -3,9 +3,9 @@ python-dotenv
 pypdf
 langchain
 langchain-pinecone
-langchain_community
-langchain_openai
-langchain_experimental
+langchain-community
+langchain-openai
+langchain-experimental
 langchain-cohere
-pinecone-client
+pinecone
 huggingface-hub
